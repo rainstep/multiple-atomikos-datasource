@@ -62,7 +62,7 @@ public class BaseService {
     @Transactional
     public void saveB(String nameB1, String nameB2) {
         this.addB1(nameB1);
-        this.addB1(nameB2);
+        this.addB2(nameB2);
     }
 
     @Transactional
